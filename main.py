@@ -34,7 +34,7 @@ def tecla_presionada(tecla: object) -> None:
     try:
         if (keyboard.is_pressed("ctrl+q")):
             guardar_posicion()
-        elif (keyboard.is_pressed("ctrl+W")):
+        elif (keyboard.is_pressed("ctrl+w")):
             restaurar_posicion()
     except Exception:
         print("Error")
