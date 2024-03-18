@@ -30,7 +30,7 @@ btn_restaurar = Button(root, text = "Restaurar Posición (Ctrl+W)", command = re
 btn_restaurar.pack()
 
 #Función para manejar eventos de teclado.
-def tecla_presionada(tecla: object) -> None:
+def tecla_presionada() -> None:
     try:
         if (keyboard.is_pressed("ctrl+q")):
             guardar_posicion()
